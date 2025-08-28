@@ -3,9 +3,11 @@ Detect gearbox position using four Hall sensors on Arduino UNO R3 and display th
 
 # gear_mapping_and_display_using_arduino/
 ├─ README.md
+
 ├─ src/
 │  ├─ main.ino
 │  └─ gear_bitmaps_fullscreen.h
+
 ├─ assets/
 │  ├─ oled_display.jpg       
 │  └─ wiring.jpg              
