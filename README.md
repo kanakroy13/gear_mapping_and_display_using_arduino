@@ -101,10 +101,7 @@ Board selection: **Tools → Board → Arduino AVR Boards → Arduino Uno**
 6. **Tune threshold (optional)**  
    If mis-detections occur, adjust `THRESHOLD_PERCENT` in `main.ino`.
 
-7. **Document**  
-   Add your photos to `assets/`:
-   - `assets/oled_display.jpg`
-   - `assets/wiring.jpg`
+
 
 ---
 
@@ -123,9 +120,7 @@ Board selection: **Tools → Board → Arduino AVR Boards → Arduino Uno**
 
 ---
 
-## License
 
-MIT (feel free to change). See `LICENSE`.
 
 ---
 
