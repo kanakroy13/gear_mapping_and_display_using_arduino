@@ -1,3 +1,9 @@
+This project demonstrates how to map and visualize gear positions using an **Arduino UNO R3**, Hall effect sensors, and a 128×64 OLED display. By reading analog signals from four Hall sensors mounted on the gear selector mechanism, the system determines the current gear (Reverse, Neutral, 1st–5th) and displays a corresponding bitmap icon on the OLED screen.  
+
+The project is designed as a practical example of **sensor integration**, **signal processing**, and **embedded graphics display**. It can be used for educational purposes, prototyping digital dashboards, or retrofitting gear indicators in vehicles. The OLED interface offers two modes: a **debug layout** with side icons for testing and a **fullscreen layout** for clean in-vehicle visualization.
+
+
+
 # gear_mapping_and_display_using_arduino
 Detect gearbox position using four Hall sensors on Arduino UNO R3 and display the current gear (R, N, 1–5) on a 128×64 SSD1306 OLED via U8g2 bitmaps. Includes wiring, assets placeholders, and a simple debug/fullscreen display mode
 
@@ -7,8 +13,6 @@ Detect gearbox position using four Hall sensors on Arduino UNO R3 and display th
 Detect gearbox position from **four Hall sensors** and show the current gear on a **128×64 SSD1306 OLED** using **U8g2** bitmaps. Supports two layouts:
 - **Fullscreen images** (default when `mode` pin is HIGH)
 - **Debug side image** (when `mode` pin is LOW)
-
-> ⚠️ This project targets **Arduino UNO R3** (ATmega328P). It uses hardware I²C (SDA=A4, SCL=A5).
 
 ---
 
